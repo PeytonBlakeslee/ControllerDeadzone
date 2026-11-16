@@ -1,0 +1,12 @@
+{
+  "product": "ControllerDeadzoneControl",
+  "folder": "ControllerDeadzone",
+  "module": "deadzone_backend",
+  "provenance_filename": "BUILD-PROVENANCE.json",
+  "backend_version": "1.0.5",
+  "api_markers": [
+    "lifecycle_resume",
+    "scan_controller_bindings",
+    "relinquish_owned_axis_field"
+  ]
+}

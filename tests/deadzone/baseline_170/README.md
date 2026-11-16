@@ -1,0 +1,1 @@
+These exact production snapshots are from accepted Deadzone 1.7.0, commit af03a3f6f054b4370a8bd86c9efd7d20fa14dd72. The radial snapshot contains Filter/CachedFloat/Backend unchanged. They are used only for offline before/after checks and benchmarks, never installed.
