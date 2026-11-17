@@ -19,7 +19,7 @@ From a clean committed checkout, run `python -B tools/package_release.py --nativ
 This produces an audited native/source intermediate archive and `dist/BUILD_INFO.json`
 outside the install folder. Then run `python -B tools/package_native_install.py --flavor player`
 on `main`, or use `--flavor player --private-candidate` on a clean, reviewed
-`release-candidate` branch. The packager requires a clean source tree;
+`release-candidate` branch, if one is created. The packager requires a clean source tree;
 GitHub branch protection is separate and is not currently enabled. The final Player
 ZIP contains only
 allowlisted runtime files, required notices/licenses and the matching native extension;
@@ -28,4 +28,4 @@ markers are checked. `package_release.py` accepts `--output`, `--repository`,
 `--run-id`, and `--source-commit`; `package_native_install.py` accepts
 `--output`. Previous output is never recursively deleted or overwritten.
 
-Historical validation evidence and legacy build provenance are retained in the repository's testing/history material. They are not installed with Player builds and do not constitute new gameplay results. Original project source is MIT-licensed; public publication and final provenance review remain deferred.
+Historical validation and legacy build records remain in the private development archive and are not part of this clean production repository or Player package. They do not establish new gameplay acceptance. Original project source is MIT-licensed.
