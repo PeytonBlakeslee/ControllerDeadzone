@@ -3304,7 +3304,7 @@ def _on_enable() -> None:
     _install_lifecycle_hooks()
     _reconcile_runtime()
 
-    logging.info("Controller Deadzone Control: enabled v1.7.2-beta.3 (cached native event metadata, verified recovery, Python fallback).")
+    logging.info("Controller Deadzone Control: enabled v1.8 (cached native event metadata, verified recovery, Python fallback).")
 
 
 def _on_disable() -> None:

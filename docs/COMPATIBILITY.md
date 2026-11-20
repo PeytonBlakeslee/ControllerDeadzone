@@ -1,6 +1,6 @@
 # Controller Deadzone Control: Compatibility
 
-Version **1.7.2-beta.3**. Limited Windows BL2 gameplay observations and source checks do not establish full multiplayer or cross-platform support.
+Version **1.8**. Limited Windows BL2 gameplay observations and source checks do not establish full multiplayer or cross-platform support.
 
 **Contents:** [Platform status](#platform-status) · [TPS native risk](#tps-native-risk) · [Uncompleted test checklist](#uncompleted-test-checklist) · [Reporting issues](#reporting-issues)
 

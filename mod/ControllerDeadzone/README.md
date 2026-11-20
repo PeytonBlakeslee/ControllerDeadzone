@@ -1,4 +1,4 @@
-# Controller Deadzone Control 1.7.2-beta.3
+# Controller Deadzone Control 1.8
 
 Customize each controller stick's axial (X/Y) or circular (radial) deadzones in Borderlands 2.
 

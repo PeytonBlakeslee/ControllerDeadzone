@@ -2,6 +2,12 @@
 
 This is the concise player-facing changelog. Detailed historical development and validation records remain in the private development archive and are not included in this clean production history. The approved source, Release notes, and original manifest provide public release provenance.
 
+## 1.8 (stable)
+
+- Promotes the accepted 1.7.2-beta.3 controller filtering and recovery behavior to the stable 1.8 milestone, without additional gameplay or native-API changes.
+- Updates player-facing version metadata, compatibility documentation and matching regression assertions.
+- Win32 frontend/native regressions, compiled extension and installation package passed exact-commit RC verification. Final Windows gameplay acceptance, host/client isolation and TPS native safety remain unverified.
+
 ## 1.7.2-beta.3 (release candidate)
 
 - Reconciled the accepted player source and corresponding optional native backend source on the private release-preparation branch.

@@ -88,8 +88,8 @@ class FrontendTests(unittest.TestCase):
     def setUp(self):
         self.m, self.env = load_frontend()
 
-    def test_prerelease_metadata_imports_with_mods_base_numeric_version_api(self):
-        self.assertEqual(self.m.mod.version_info, (1, 7, 2))
+    def test_stable_metadata_imports_with_mods_base_numeric_version_api(self):
+        self.assertEqual(self.m.mod.version_info, (1, 8))
 
     def test_native_notification_uses_supplied_guard_once_without_query(self):
         m = self.m

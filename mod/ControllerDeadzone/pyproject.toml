@@ -1,6 +1,6 @@
 [project]
 name = "controller_deadzone"
-version = "1.7.2-beta.3"
+version = "1.8"
 authors = [{ name = "Peyton Blakeslee" }]
 description = "BL2 controller deadzone control with per-stick settings; TPS support is experimental."
 
